@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <EnableDefaultCompileItems>false</EnableDefaultCompileItems>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Realm" Version="12.3.0" />
+    <Compile Include="com.guru.unity.episode/Episode.guru.pb.cs" />
+    <Compile Include="com.guru.unity.collection/Runtime/Collection/Interface.cs" />
+    <Compile Include="com.guru.unity.collection/Runtime/Collection/Exception.cs" />
+    <Compile Include="com.guru.unity.collection/Runtime/Collection/Meta/CollectionMeta.cs" />
+    <Compile Include="com.guru.unity.collection/Runtime/Collection/Repository.cs" />
+    <Compile Include="com.guru.unity.collection/Runtime/Orm/Condition.guru.pb.cs" />
+    <Compile Include="com.guru.unity.collection/Runtime/Orm/Query.guru.pb.cs" />
+    <Compile Include="com.guru.unity.collection/Runtime/Realm/RealmFactory.cs" />
+    <Compile Include="com.guru.unity.collection/Runtime/Realm/RealmMarshal.cs" />
+    <Compile Include="com.guru.unity.collection/Runtime/Realm/Logic/RealmCountLogic.cs" />
+    <Compile Include="com.guru.unity.collection/Runtime/Realm/Logic/RealmLogicHelper.cs" />
+    <Compile Include="com.guru.unity.collection/Runtime/Realm/Logic/RealmDeleteLogic.cs" />
+    <Compile Include="com.guru.unity.collection/Runtime/Realm/Logic/RealmGetLogic.cs" />
+    <Compile Include="com.guru.unity.collection/Runtime/Realm/Logic/RealmOneLogic.cs" />
+    <Compile Include="com.guru.unity.collection/Runtime/Realm/Logic/RealmUpdateLogic.cs" />
+    <Compile Include="com.guru.unity.collection/Runtime/Realm/Logic/RealmListLogic.cs" />
+    <Compile Include="com.guru.unity.collection/Runtime/Realm/Logic/RealmCreateLogic.cs" />
+    <Compile Include="com.guru.unity.collection/Runtime/Realm/Logic/RealmDeleteMultiLogic.cs" />
+    <Compile Include="com.guru.unity.collection/Runtime/Realm/Logic/RealmUpsertLogic.cs" />
+    <Compile Include="com.guru.unity.collection/Runtime/Realm/RealmRepository.cs" />
+    <Compile Include="com.guru.unity.collection/Runtime/Realm/RealmFilter.cs" />
+    <Compile Include="com.guru.unity.internal/Runtimne/Logger/LoggerUtils.cs" />
+    <Compile Include="com.guru.unity.internal/Runtimne/Utility/IOUtility.cs" />
+    <Compile Include="com.guru.unity.internal/Runtimne/Utility/Singleton.cs" />
+    <Compile Include="Program.cs" />
+  </ItemGroup>
+</Project>
